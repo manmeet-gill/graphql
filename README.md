@@ -1,3 +1,9 @@
 # GraphQL project
 Project done in Facebook DEV circle's event
-/n To run this project, clone this repo. Then run npm install and npm run server
+To run this project, clone this repo. 
+Then run 
+1. npm install 
+2. npm run server
+
+The server will be running at http://localhost:5000/
+The graphql end point will be http://localhost:5000/graphql
