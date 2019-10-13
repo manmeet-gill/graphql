@@ -10,7 +10,7 @@ const mongoose = require('mongoose')
 const graphqlExpress = require('express-graphql')
 const taskSchema = require('./graphql/TaskSchema').TaskSchema
 
-mongoose.connect('mongodb+srv://hackerdojo:passworddojo@cluster0-lgloo.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0-lgloo.mongodb.net/test?retryWrites=true&w=majority',
     (err)=>{
         if(err) throw err;
         console.log("connected to mongo atlas");

@@ -9,3 +9,5 @@ Then run
 The server will be running at http://localhost:5000/
 
 The graphql end point will be http://localhost:5000/graphql
+
+Please add your own mongo atlas  string including user and password for Database access.
